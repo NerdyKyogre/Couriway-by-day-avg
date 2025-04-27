@@ -60,7 +60,7 @@ def main():
             hours = int(mins / 60)
             mins = mins % 60
         #print out average
-        print("Average for run %d: %d:%02d:%02d" % ((i + 1), hours, mins, secs))
+        print("Average for run %d: %d:%02d:%02d over %d run(s)" % ((i + 1), hours, mins, secs, len(runVals[i])))
 
 
 
